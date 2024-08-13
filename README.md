@@ -95,26 +95,5 @@ The application integrates with the following external news APIs:
 
 ## Swagger Documentation
 
-Swagger is integrated for interactive API documentation. You can explore and test the API endpoints using the Swagger UI at: http://localhost:8080/swagger-ui/index.html
-
-
-## Caching
-
-News articles are cached to reduce the number of calls to external news APIs. The cache is periodically updated in the background.
-
-## Exception Handling
-
-The application implements proper exception handling for invalid requests, authentication errors, and authorization errors.
-
-## Input Validation
-
-User registration and news preference updates use Spring's validation annotations to ensure data integrity.
-
-## Testing
-
-You can test the API using tools like Postman or Curl. Here are some example requests:
-
-- **Register**: `POST /api/register` with JSON body `{ "username": "user", "password": "pass" }`
-- **Login**: `POST /api/login` with JSON body `{ "username": "user", "password": "pass" }`
-- **Fetch News**: `GET /api/news` (requires valid JWT token)
+Swagger is integrated for interactive API documentation. You can explore and test the API endpoints using the Swagger UI at: http://localhost:8080/swagger-ui/index.html 
 
